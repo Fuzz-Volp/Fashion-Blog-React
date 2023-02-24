@@ -1,6 +1,30 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+}
+
+img { 
+	border: none;
+	width: 90rem;
+    height: auto;
+    
+}
+
+.App {
+  width: 61vw;
+  border-color: #d3d3d3;
+  border-width: 12px;
+  padding-left: 7rem;
+  margin-left: 5rem;  
+}
+
+.subhead::first-letter {
+  color: #808080;
+  padding: 0 1rem;
+  margin: 0 1rem 0 0;
+
+  font-size: 12rem;
+  font-weight: bolder;
+  float: left;
+  line-height: 1;
 }
